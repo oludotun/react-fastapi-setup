@@ -1,0 +1,56 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Node.js - Frontend
+**/node_modules
+**/dist
+**/dist-ssr
+**/.cache
+**/coverage
+**/*.log
+**/.env
+**/.env.*
+
+# Python - Backend
+**/__pycache__
+**/*.py[cod]
+**/*$py.class
+**/venv
+**/.venv
+**/.pytest_cache
+**/.coverage
+**/htmlcov
+**/*.egg-info
+
+# IDE and Editor files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker specific
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Documentation and misc
+README.md
+CHANGELOG.md
+docs/
+*.md
+*.log
+*.tmp

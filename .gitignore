@@ -1,0 +1,68 @@
+# Frontend - React + Vite
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/dist-ssr/
+frontend/**/.env
+frontend/**/.env.*
+frontend/**/logs
+frontend/**/*.log
+frontend/**/npm-debug.log*
+frontend/**/yarn-debug.log*
+frontend/**/yarn-error.log*
+frontend/**/pnpm-debug.log*
+frontend/**/lerna-debug.log*
+frontend/**/.cache/
+*.local
+
+# Backend - FastAPI
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/*$py.class
+backend/.env
+backend/.env.*
+backend/*.sqlite3
+backend/*.db
+**/__pycache__/
+
+# IDE - Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing and Coverage
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+
+# Misc
+**/.env
+**/.env.*
+*.log
+*.bak
+*.tmp
+*~
